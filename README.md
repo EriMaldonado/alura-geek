@@ -1,7 +1,7 @@
 Chagenger E-commerce Alura Geek - Formación Frontend
 
 Enlace al sitio: (https://erimaldonado.github.io/alura-geek)
-![Imagen del proyecto](https://github.com/EriMaldonado/alura-geek/blob/gh-pages/static/media/alura-geek.png?raw=true)
+![Imagen del proyecto](https://github.com/EriMaldonado/alura-geek/blob/master/src/components/assets/images/alura-geek.png?raw=true)
 
 ## Tecnologías 🛠
 [![REACT](https://img.shields.io/badge/REACT-1572B6?style=for-the-badge&logo=react&logoColor=white)](https://en.wikipedia.org/wiki/React_(software))
