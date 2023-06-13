@@ -1,0 +1,34 @@
+.main-container-products {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title-container-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title-products {
+    text-align: center;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre los productos */
+  }
+  
+  .product {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .custom-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  

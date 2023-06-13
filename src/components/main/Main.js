@@ -16,7 +16,10 @@ import img15 from "../assets/images/img15.png";
 import img16 from "../assets/images/img16.png";
 import img17 from "../assets/images/img17.png";
 import img18 from "../assets/images/img18.png";
+import { Link } from "react-router-dom";
 import './Main.css'
+import "@fortawesome/fontawesome-free/css/all.css";
+
 const Main = () => {
   const figures = [
     {
@@ -54,13 +57,7 @@ const Main = () => {
       price: 60,
       button: "Ver producto",
     },
-    {
-      id: 6,
-      name: "Producto XYZ",
-      image: img6,
-      price: 60,
-      button: "Ver producto",
-    },
+
   ];
   const consoles = [
     {
@@ -95,13 +92,6 @@ const Main = () => {
       id: 11,
       name: "Producto XYZ",
       image: img11,
-      price: 60,
-      button: "Ver producto",
-    },
-    {
-      id: 12,
-      name: "Producto XYZ",
-      image: img12,
       price: 60,
       button: "Ver producto",
     },
@@ -142,23 +132,15 @@ const Main = () => {
       price: 60,
       button: "Ver producto",
     },
-    {
-      id: 18,
-      name: "Producto XYZ",
-      image: img18,
-      price: 60,
-      button: "Ver producto",
-    },
+
   ];
   
-
-
   return (
     <div className="main-container">
       <div className="title-container">
         <h2 className="title">Star Wars</h2>
         <div className="heading-right">
-          <a href="#">Ver todos</a>
+          <Link to="/starwars">Ver todos</Link>
           <i className="fa-solid fa-caret-right"></i>
         </div>
       </div>
@@ -168,14 +150,16 @@ const Main = () => {
             <img src={product.image} alt={product.name} onClick={product} />
             <p>{product.name}</p>
             <p>Precio: ${product.price}</p>
-            <button className="custom-button">{product.button}</button>
+            <Link to={`starwars/${product.id}`}> 
+                <button className="custom-button">{product.button}</button>
+                </Link>
           </div>
         ))}
       </div>
       <div className="title-container">
         <h2 className="title">Consolas</h2>
         <div className="heading-right">
-          <a href="#">Ver todos</a>
+          <a href="/consoles">Ver todos</a>
           <i className="fa-solid fa-caret-right"></i>
         </div>
       </div>
@@ -185,14 +169,16 @@ const Main = () => {
             <img src={product.image} alt={product.name} onClick={product} />
             <p>{product.name}</p>
             <p>Precio: ${product.price}</p>
-            <button className="custom-button">{product.button}</button>
+            <Link to={`consoles/${product.id}`}> 
+                <button className="custom-button">{product.button}</button>
+                </Link>
           </div>
         ))}
       </div>
       <div className="title-container">
         <h2 className="title">Diversos</h2>
         <div className="heading-right">
-          <a href="#">Ver todos</a>
+          <a href="/various">Ver todos</a>
           <i className="fa-solid fa-caret-right"></i>
         </div>
       </div>
@@ -202,7 +188,9 @@ const Main = () => {
             <img src={product.image} alt={product.name} onClick={product} />
             <p>{product.name}</p>
             <p>Precio: ${product.price}</p>
-            <button className="custom-button">{product.button}</button>
+            <Link to={`various/${product.id}`}> 
+                <button className="custom-button">{product.button}</button>
+                </Link>
           </div>
         ))}
       </div>

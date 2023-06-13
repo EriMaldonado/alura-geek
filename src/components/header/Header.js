@@ -6,12 +6,15 @@ import './Header.css';
 const Header=() => {
   return(
     <header>
-    <div className="header-container">
-      <div className="logo-container center">
-        <img src={vector} />
-        <span className="alura">Alura</span>
-        <span className="geek">Geek</span>
-      </div>
+      <div className="header-container">
+        <Link to="/alura-geek" className="no-underline">
+          <div className="logo-container center">
+            <img src={vector} />
+              <span className="alura">Alura</span>
+              <span className="geek">Geek</span>
+          </div>  
+        </Link>
+      
       <Search />
       <div className="button-container">
           <Link to="/login">

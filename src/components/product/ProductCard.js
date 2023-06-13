@@ -1,13 +1,18 @@
 import React from "react";
-
-const ProductCard = ({ products }) => {
+import { Link } from "react-router-dom";
+import { figures } from "../../pages/dataProducts";
+const ProductCard = ({ product }) => {
   return (
     <div className="product-card">
-      <img src={products.image} alt={products.name} />
-      <h3>{products.name}</h3>
-      <p>{products.price}</p>
-      <button>Ver producto</button>
+      <img src={product.image} alt={product.name} />
+      <h3>{product.name}</h3>
+      <p>{product.price}</p>
+      <Link to={`/${product.id}`}>
+        <button>Ver producto</button>
+      </Link>
     </div>
   );
 };
+
 export default ProductCard;
+

@@ -11,6 +11,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+  }
+  .no-underline {
+    text-decoration: none;
   }
   
   .logo-container {

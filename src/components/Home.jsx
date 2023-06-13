@@ -4,7 +4,7 @@ import Header from "./banner/Banner";
 import Footer from "./footer/Footer";
 import Banner from "./header/Header";
 import Main from "./main/Main";
-
+import "./main/Main.css"
 const Home = () => {
   return (
     <>

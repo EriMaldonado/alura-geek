@@ -1,15 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import vector from "../assets/images/vector.png";
 import './Footer.css'
 const Footer = () => {
   return (
     <footer>
       <div className="footer-section">
-        <div className="logo-container center">
-          <img src={vector} />
-          <span className="alura">Alura</span>
-          <span className="geek">Geek</span>
-        </div>
+      <Link to="/alura-geek" className="no-underline">
+          <div className="logo-container center">
+            <img src={vector} />
+              <span className="alura">Alura</span>
+              <span className="geek">Geek</span>
+          </div>  
+        </Link>
       </div>
       <div class="container__nav">
         <nav id="nav">
