@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alura-geek/static/css/main.f0d47c2f.css",
-    "main.js": "/alura-geek/static/js/main.488205de.js",
+    "main.css": "/alura-geek/static/css/main.93ce3cc8.css",
+    "main.js": "/alura-geek/static/js/main.e3dabb7b.js",
     "static/js/787.af529645.chunk.js": "/alura-geek/static/js/787.af529645.chunk.js",
     "static/media/hero.png": "/alura-geek/static/media/hero.1fe89e4e32e6d8888d01.png",
     "static/media/fa-solid-900.ttf": "/alura-geek/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
@@ -10,10 +10,8 @@
     "static/media/fa-brands-400.woff2": "/alura-geek/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
     "static/media/img13.png": "/alura-geek/static/media/img13.639db40c0a5bb9b8f1a2.png",
     "static/media/fa-regular-400.ttf": "/alura-geek/static/media/fa-regular-400.d87474231f4192884802.ttf",
-    "static/media/img17.png": "/alura-geek/static/media/img17.8bc0132b842aeda9eeaf.png",
     "static/media/img15.png": "/alura-geek/static/media/img15.1f91b62654c2e9a54a45.png",
     "static/media/img5.png": "/alura-geek/static/media/img5.1a0a618d1cba65276593.png",
-    "static/media/img18.png": "/alura-geek/static/media/img18.815f4783265e5403b245.png",
     "static/media/img6.png": "/alura-geek/static/media/img6.f934ed212d182cdfa360.png",
     "static/media/img14.png": "/alura-geek/static/media/img14.7a07edcc26c029c3f729.png",
     "static/media/img2.png": "/alura-geek/static/media/img2.dc9a35a3f60c291ec8b0.png",
@@ -22,7 +20,6 @@
     "static/media/img12.png": "/alura-geek/static/media/img12.44add6132464373b3c2f.png",
     "static/media/img10.png": "/alura-geek/static/media/img10.1270efa344e25f010082.png",
     "static/media/img9.png": "/alura-geek/static/media/img9.b33731c45014fd56135b.png",
-    "static/media/img16.png": "/alura-geek/static/media/img16.1b337a6adbe89b58c7be.png",
     "static/media/img8.png": "/alura-geek/static/media/img8.496aef9481c305af1f79.png",
     "static/media/fa-regular-400.woff2": "/alura-geek/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
     "static/media/img4.png": "/alura-geek/static/media/img4.78bbfc1762f38e9c310e.png",
@@ -31,12 +28,12 @@
     "static/media/fa-v4compatibility.ttf": "/alura-geek/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/alura-geek/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/alura-geek/index.html",
-    "main.f0d47c2f.css.map": "/alura-geek/static/css/main.f0d47c2f.css.map",
-    "main.488205de.js.map": "/alura-geek/static/js/main.488205de.js.map",
+    "main.93ce3cc8.css.map": "/alura-geek/static/css/main.93ce3cc8.css.map",
+    "main.e3dabb7b.js.map": "/alura-geek/static/js/main.e3dabb7b.js.map",
     "787.af529645.chunk.js.map": "/alura-geek/static/js/787.af529645.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0d47c2f.css",
-    "static/js/main.488205de.js"
+    "static/css/main.93ce3cc8.css",
+    "static/js/main.e3dabb7b.js"
   ]
 }
