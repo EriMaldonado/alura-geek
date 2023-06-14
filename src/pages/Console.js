@@ -10,10 +10,7 @@ const Console = () => {
       <Header />
       <div className="main-container-products">
         <div className="title-container-products">
-          <h2>Consoles Products</h2>
-          <div className="title-container-products">
-            <h2 className="title-products">Consoles</h2>
-          </div>
+          <h2>Consolas </h2>
           <div className="image-container">
             {consoles.map((product) => (
               <div key={product.id} className="product">
@@ -21,7 +18,7 @@ const Console = () => {
                 <p>{product.name}</p>
                 <p>Precio: ${product.price}</p>
                 <Link to={`${product.id}`}> 
-                <button className="custom-button">{product.button}</button>
+                <button>{product.button}</button>
                 </Link>
               </div>
             ))}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { figures } from "../../pages/dataProducts";
+
+import "../main/Main.css"
 const ProductCard = ({ product }) => {
   return (
     <div className="product-card">

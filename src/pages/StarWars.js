@@ -12,10 +12,7 @@ const StarWars = () => {
       <Header />
       <div className="main-container-products">
         <div className="title-container-products">
-          <h2>Star Wars Products</h2>
-          <div className="title-container-products">
-            <h2 className="title-products">Star Wars</h2>
-          </div>
+          <h2>Star Wars </h2>
           <div className="image-container">
             {figures.map((product) => (
               <div key={product.id} className="product">
@@ -23,7 +20,7 @@ const StarWars = () => {
                 <p>{product.name}</p>
                 <p>Precio: ${product.price}</p>
                 <Link to={`${product.id}`}> 
-                <button className="custom-button">{product.button}</button>
+                <button>{product.button}</button>
                 </Link>
            
               </div>

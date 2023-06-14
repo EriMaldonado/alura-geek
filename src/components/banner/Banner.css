@@ -29,9 +29,7 @@
     margin: 0;
     padding: 0;
   }
-  
   .banner-text button {
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 16px;
@@ -43,7 +41,9 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none !important;
   }
+  
   
   .banner-text button:hover {
     background-color: #012244;

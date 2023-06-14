@@ -4,16 +4,14 @@ import "./products.css"; // Importa el archivo CSS
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import {products} from "../pages/dataProducts";
+
 const Various = () => {
   return (
     <>
       <Header />
       <div className="main-container-products">
         <div className="title-container-products">
-          <h2>Various Products</h2>
-          <div className="title-container-products">
-            <h2 className="title-products">Various</h2>
-          </div>
+          <h2>Varios </h2>
           <div className="image-container">
             {products.map((product) => (
               <div key={product.id} className="product">
@@ -21,7 +19,7 @@ const Various = () => {
                 <p>{product.name}</p>
                 <p>Precio: ${product.price}</p>
                 <Link to={`${product.id}`}> 
-                <button className="custom-button">{product.button}</button>
+                <button>{product.button}</button>
                 </Link>
               </div>
             ))}

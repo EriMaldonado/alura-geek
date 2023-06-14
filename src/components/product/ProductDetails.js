@@ -1,7 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { figures } from "../../pages/dataProducts";
-import ProductCard from "./ProductCard";
+
+import "../main/Main.css" 
+
 const ProductDetails = () => {
   const { id } = useParams();
   const productId = parseInt(id);

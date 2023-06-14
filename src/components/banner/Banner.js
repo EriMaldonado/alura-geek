@@ -17,7 +17,7 @@ const Banner = () => {
         <h1>{currentMonth} Promociones</h1>
         <p>Productos destacados</p>
         <Link to="/consoles">
-        <button>Ver Consolas</button>
+        <button className="button-custom">Ver Consolas</button>
         </Link>
       </div>
     </div>
