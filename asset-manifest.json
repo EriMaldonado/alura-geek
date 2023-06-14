@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alura-geek/static/css/main.93ce3cc8.css",
-    "main.js": "/alura-geek/static/js/main.094c329d.js",
+    "main.css": "/alura-geek/static/css/main.7c4f6e5a.css",
+    "main.js": "/alura-geek/static/js/main.436502ec.js",
     "static/js/787.af529645.chunk.js": "/alura-geek/static/js/787.af529645.chunk.js",
     "static/media/hero.png": "/alura-geek/static/media/hero.1fe89e4e32e6d8888d01.png",
     "static/media/fa-solid-900.ttf": "/alura-geek/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
@@ -28,12 +28,12 @@
     "static/media/fa-v4compatibility.ttf": "/alura-geek/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/alura-geek/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/alura-geek/index.html",
-    "main.93ce3cc8.css.map": "/alura-geek/static/css/main.93ce3cc8.css.map",
-    "main.094c329d.js.map": "/alura-geek/static/js/main.094c329d.js.map",
+    "main.7c4f6e5a.css.map": "/alura-geek/static/css/main.7c4f6e5a.css.map",
+    "main.436502ec.js.map": "/alura-geek/static/js/main.436502ec.js.map",
     "787.af529645.chunk.js.map": "/alura-geek/static/js/787.af529645.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93ce3cc8.css",
-    "static/js/main.094c329d.js"
+    "static/css/main.7c4f6e5a.css",
+    "static/js/main.436502ec.js"
   ]
 }
