@@ -6,6 +6,10 @@ import "@fortawesome/fontawesome-free/css/all.css";
 
 const Main = () => {
 
+  const firstFiveFigures = figures.slice(0, 5);
+  const firstFiveConsoles = consoles.slice(0, 5);
+  const firstFiveProducts = products.slice(0, 5);
+
   return (
     <div className="main-container">
       <div className="title-container">
@@ -16,13 +20,13 @@ const Main = () => {
         </div>
       </div>
       <div className="image-container">
-        {figures.map((product) => (
+        {firstFiveFigures.map((product) => (
           <div key={product.id} className="product">
             <img src={product.image} alt={product.name} onClick={product} />
             <p>{product.name}</p>
             <p>Precio: ${product.price}</p>
             <Link to={`starwars/${product.id}`}>
-              <button>Ver Consolas</button>
+              <button>Ver producto</button>
             </Link>
           </div>
         ))}
@@ -35,7 +39,7 @@ const Main = () => {
         </div>
       </div>
       <div className="image-container">
-        {consoles.map((product) => (
+        {firstFiveConsoles.map((product) => (
           <div key={product.id} className="product">
             <img src={product.image} alt={product.name} onClick={product} />
             <p>{product.name}</p>
@@ -54,7 +58,7 @@ const Main = () => {
         </div>
       </div>
       <div className="image-container">
-        {products.map((product) => (
+        {firstFiveProducts.map((product) => (
           <div key={product.id} className="product">
             <img src={product.image} alt={product.name} onClick={product} />
             <p>{product.name}</p>
@@ -70,4 +74,3 @@ const Main = () => {
 };
 
 export default Main;
-

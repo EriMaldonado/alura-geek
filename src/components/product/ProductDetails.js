@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { figures } from "../../pages/dataProducts";
 
-import "../main/Main.css" 
+import "../main/Main.css";
 
 const ProductDetails = () => {
   const { id } = useParams();
   const productId = parseInt(id);
-  const product = figures.find((product) => product.id === productId);
+  const [product, setProduct] = useState(null);
+
+  useEffect(() => {
+    const fetchProduct = () => {
+      const foundProduct = figures.find((product) => product.id === productId);
+      if (foundProduct) {
+        setProduct(foundProduct);
+      }
+    };
+
+    fetchProduct();
+  }, [productId]);
 
   if (!product) {
     return <div>Producto no encontrado</div>;
