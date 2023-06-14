@@ -52,18 +52,30 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
+
 .login_btn:hover {
   background-color: #012244;
 }
 
-@media screen and (min-width:768px) {
-  .login{
-      height: 50vh; 
+.login_register {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 0.875rem;
+}
+
+.login_register a {
+  color: blue;
+}
+
+@media screen and (min-width: 768px) {
+  .login {
+    height: 50vh;
   }
 }
 
-@media screen and (min-width:992px){
-  .login{
-      height: 100vh; 
+@media screen and (min-width: 992px) {
+  .login {
+    height: 100vh;
   }
 }

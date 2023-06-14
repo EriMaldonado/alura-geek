@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import "./Login.css";
@@ -27,8 +27,14 @@ const Login = () => {
           required
           data-password
         />
+        <div className="login_register">
+          ¿No tienes una cuenta? <br/>
+          <Link to="/register">Registrarse</Link>
+        </div>
         <button type="submit" class="login_btn">Entrar</button>
+        
       </form>
+      
     </section>
     <Footer/>
   </main> 

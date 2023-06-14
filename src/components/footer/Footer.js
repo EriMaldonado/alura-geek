@@ -52,7 +52,7 @@ const Footer = () => {
         </form>
       </div>
       <div className="footer-section">
-        <form className="form-footer center">{/*...*/}</form>
+        <form className="form-footer center"></form>
       </div>
     </footer>
   );
