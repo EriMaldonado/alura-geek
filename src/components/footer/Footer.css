@@ -1,0 +1,84 @@
+/*Footer*/
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #eaf2fd;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer nav {
+    height: 100%;
+  }
+  
+  nav ul li {
+    margin: 0px 20px;
+    list-style: none;
+    text-decoration: none;
+  }
+  nav ul li a {
+    margin: 0px 20px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .form-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-footer input[type="text"] {
+    width: 200%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .form-footer .button-container {
+    display: flex;
+  }
+  
+  .form-footer button {
+    background-color: #174d99;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-footer button:hover {
+    background-color: #012244;
+  }
+  .box__copyright {
+   
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .box__copyright a {
+    margin-top: 20px;
+    color:#000000;
+    text-decoration: none;
+  }
+  .box__copyright p , .box__copyright i {
+    margin-top: 5px;
+    color:#000000;
+  }
+  

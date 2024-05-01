@@ -1,0 +1,50 @@
+/*Banner*/
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: left;
+    max-width: 1440px;
+    height: 315px;
+    margin: 0 auto;
+  }
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    text-align: left;
+    color: #fff;
+    max-width: 1134px; 
+    margin: auto; /* center horizontally */
+  }
+  .banner-text h1 {
+    color: #fff;
+    width: 1134px;
+    height: 61px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    margin: 0;
+    padding: 0;
+  }
+  .banner-text button {
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    color: #fff;
+    background: #174d99;
+    width: 129px;
+    height: 51px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none !important;
+  }
+  
+  
+  .banner-text button:hover {
+    background-color: #012244;
+  }
